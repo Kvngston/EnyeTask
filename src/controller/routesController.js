@@ -24,7 +24,7 @@ const routes = {
 
             const {date, rates} = JSON.parse(exchangeResponse.body);
             return res.json({
-                result: {
+                results: {
                     base,
                     date,
                     rates
